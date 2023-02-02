@@ -1,0 +1,25 @@
+{
+  "name": "itg-news-tina",
+  "version": "1.0.0",
+  "description": "1. install hugo https://gohugo.io/installation/windows/#build-from-source\r 2. clone git \r 3. run hugo server\r 4. https://forestry.io/\r 5. https://www.netlify.com/\r 6. add domains to netlify https://app.netlify.com/teams/anastasiiaxfr/dns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tinacms dev && next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anastasiiaxfr/itg-news-tina.git"
+  },
+  "keywords": [],
+  "author": "anastasiia_berest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anastasiiaxfr/itg-news-tina/issues"
+  },
+  "homepage": "https://github.com/anastasiiaxfr/itg-news-tina#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.0.7",
+    "tinacms": "^1.1.4"
+  }
+}
