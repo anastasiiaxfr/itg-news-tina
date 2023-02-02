@@ -1,6 +1,6 @@
-[build]
-  publish = ".next"
-  command = "CLIENT_ID=$clientID, TOKEN=$token npm run build"
+# [build]
+#   publish = ".next"
+  #command = "CLIENT_ID=$clientID TOKEN=$token npm run build"
 
 
 [build.environment]
